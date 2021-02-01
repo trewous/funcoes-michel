@@ -1,7 +1,11 @@
 // @author Michel Silva <micheljanura@hotmail.com>
+
 //Colocar c/ ou s/ juros na vitrine
 //Ex: Kasamar, resolvi inserir os dados como metatags no template, para ficar mais objetivo
 //Usado no caso de controles "maxinstallment" de qntd de parcelas e valores
+
+
+//Se a loja usar infinity scroll, etc, chamar novamente a função no callback.
 
 $('.product').each(function () {
     var metaTagPor = $(this).find('meta[name="valor-por-calc"]').attr('content');

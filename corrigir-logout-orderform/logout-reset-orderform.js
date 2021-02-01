@@ -5,7 +5,8 @@
 // Garantindo que caso ocorra um outro login, o sistema pegue os novos dados e coloque no checkout.
 
 $(document).ready(function(){
-    $('.os-account').on('click', '.vtex-modal__confirmation .bg-action-primary div',  function(event){
+    // botão confirmar logout no modal na página da conta
+    $('.page-account').on('click', '.vtex-modal__confirmation .bg-action-primary div',  function(event){
         event.stopPropagation();
         event.preventDefault();
         var orderFormID = vtexjs.checkout.orderFormId;

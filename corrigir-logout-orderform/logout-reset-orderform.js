@@ -1,3 +1,4 @@
+// @author Michel Silva <micheljanura@hotmail.com>
 // CMS
 // Problema: Quando o usuário logado faz logout, os dados do checkout permanecem (email, CPF, etc)
 // O script substitui o logout padrão da Vtex por um que reseta os dados de Usuário no Orderform
